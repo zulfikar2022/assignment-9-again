@@ -19,8 +19,8 @@ const FeaturedJob = () => {
             setJobs(allJobs)
         }
         else{
-            const newArray = [...allJobs].slice(0,5);
-            setJobs(newArray);
+           
+            setJobs([...allJobs].slice(0,5));
         }
         setShowingAll(!showingAll)
     }
