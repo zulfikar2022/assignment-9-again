@@ -1,0 +1,22 @@
+[
+    {
+        "logo": "https://i.ibb.co/MNQQ0K2/calculator.gif",
+        "jobType": "Account & Finance",
+        "vacancy": 100
+    },
+    {
+        "logo": "https://i.ibb.co/YtyVLng/idea.gif",
+        "jobType": "Creative Design",
+        "vacancy": 100
+    },
+    {
+        "logo": "https://i.ibb.co/Hhwx82y/wireframe.gif",
+        "jobType": "Marketing & Sales",
+        "vacancy": 150
+    },
+    {
+        "logo": "https://i.ibb.co/k2zRMWJ/database.gif",
+        "jobType": "Engineering Job",
+        "vacancy": 224
+    }
+]
