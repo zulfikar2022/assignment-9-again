@@ -12,7 +12,7 @@ import JobDetail from './components/JobDetail/JobDetail.jsx'
 import loadIndividualJob from './customLoaders/LoadIndividualJob.js'
 
 // const [appliedJobs,setAppliedJobs] = useState([]);
-const appliedJobsContext = createContext([]);
+// const appliedJobsContext = createContext([]);
 
 const router = createBrowserRouter([
   {
