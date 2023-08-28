@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+
 import { Outlet } from 'react-router-dom';
 import './MainLayout.css'
-import Banner from '../Banner/Banner';
-import JobCategory from '../JobCategory/JobCategory';
+import Footer from '../common-components/Footer/Footer';
+
 
 const MainLayout = () => {
     return (

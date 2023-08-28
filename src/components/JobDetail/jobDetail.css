@@ -1,0 +1,11 @@
+.jobDetails-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+}
+
+.jobDetails-summary{
+    background-color: #f3f2ff;
+    border-radius: 5px;
+    padding: 15px;
+}
