@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div >
-            <div className='flex justify-between header px-11 py-10'> 
+            <div className='flex justify-between header px-20 py-10'> 
                 <h3 className='text-3xl'>JobSearch</h3>
                 <div className='flex gap-x-3.5'>
                     <NavLink
