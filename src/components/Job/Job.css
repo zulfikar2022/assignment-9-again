@@ -1,0 +1,12 @@
+.job{
+    border: 1px solid #00000054;
+    border-radius: 10px;
+}
+.job a{
+    padding: 0;
+}
+
+.companyLogo{
+    width: 120px;
+
+}

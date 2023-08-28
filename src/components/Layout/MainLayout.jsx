@@ -10,9 +10,8 @@ const MainLayout = () => {
     return (
         <div className=''>
             <Header></Header>
-            <Banner></Banner>
-            <div className='px-20 mb-10'>
-                <JobCategory></JobCategory>
+            
+            <div className='mb-10'>
                 <Outlet></Outlet>
                 <Footer></Footer>
             </div>
