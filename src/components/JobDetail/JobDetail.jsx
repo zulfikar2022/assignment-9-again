@@ -6,20 +6,27 @@ import { faCalendar, faCommentDollar, faEnvelope, faLocationDot, faPhone } from 
 
 const JobDetail = () => {
     const jobs = useLoaderData();
-
-    const location = useLocation().pathname[1];
+    const location = useLocation().pathname.slice(1);
 
     const job = jobs.find(jb => jb._id == location);
+    const { _id, jobTitle, companyLogo, companyName, jobType, address, salaryRange, phoneNumber, email, jobDescription, jobResponsibility, educationalRequirement, experience } = job;
+    console.log('from line number 38 ',location)
+
+
+   
+
+
+
     const handleApplyNow = (id) => {
         console.log(id)
         const localStorageData = localStorage.getItem('appliedJobs');
         if (!localStorageData) {
-            const jobs = `${id}`;
+            const jobs = [id]
             localStorage.setItem('appliedJobs', jobs);
         }
         else {
-            let jobsIds = localStorage.getItem('appliedJobs').split('');
-            // console.log(jobsIds)
+            let jobsIds = localStorage.getItem('appliedJobs').split(',');
+            console.log(jobsIds)
 
             const isAlreadyExists = jobsIds.find(job => job == id);
             console.log(isAlreadyExists)
@@ -29,11 +36,11 @@ const JobDetail = () => {
             }
             jobsIds.push(id);
 
-            localStorage.setItem('appliedJobs', jobsIds.join(''));
+            localStorage.setItem('appliedJobs', jobsIds);
         }
     }
 
-    const { _id, jobTitle, companyLogo, companyName, jobType, address, salaryRange, phoneNumber, email, jobDescription, jobResponsibility, educationalRequirement, experience } = job;
+   
     // console.log(job);
     return (
         <div>

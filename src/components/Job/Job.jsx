@@ -5,7 +5,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
-    console.log(job)
+    // console.log(job)
     return (
         <div className='job p-5 flex flex-col justify-between'>
             <img className='companyLogo' src={job.companyLogo} alt="" />
