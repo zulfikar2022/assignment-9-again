@@ -1,0 +1,14 @@
+
+.header{
+    background-color:#f9f9ff ;
+}
+a{
+    padding: 10px;
+}
+
+.start-applying{
+    background:linear-gradient(to right,#8c81ff,rgb(115, 89, 89));
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
